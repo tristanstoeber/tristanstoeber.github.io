@@ -3,7 +3,7 @@
 - [Think@Ruhr](https://thinkatruhr.de/) Research Fellow at the [Institute for Neural Computation](https://www.ini.rub.de/), Ruhr University Bochum
 - Research fellow at the Department of Neurology, [University Hospital Frankfurt](https://www.kgu.de/)
 
-[Scholar](https://scholar.google.com/citations?user=JghW0NoAAAAJ) - [Resume](cv.pdf) - [LinkedIn](https://www.linkedin.com/in/tristan-manfred-st%C3%B6ber-ph-d-941b34160/) - [Contact](mailto:tristan.stoeber@posteo.net)
+[Scholar](https://scholar.google.com/citations?user=JghW0NoAAAAJ) - [Resume](CV.pdf) - [LinkedIn](https://www.linkedin.com/in/tristan-manfred-st%C3%B6ber-ph-d-941b34160/) - [Contact](mailto:tristan.stoeber@posteo.net)
 
 ![headshot](Tristan_2021_Square.JPG.png)
 
