@@ -22,7 +22,7 @@ Currently, I am employed as a [Think@Ruhr](https://thinkatruhr.de/) Research Fel
 
 In 2021, I earned my Doctor of Philosophy from the University of Oslo as part of the [Simula-UiO-UCSD Research and PhD training program](https://www.simula.no/education/research-exchanges/suurph/). Supervised by Arvind Kumar, Marianne Fyhn, and Jill Leutgeb, my PhD research led to the development of a theory for the computational role of the hippocampal region CA2. Prior to this, I obtained a Master's degree at the University of Freiburg, studying Computational Neuroscience at the [Bernstein Center Freiburg](https://www.bcf.uni-freiburg.de/).
 
-Besides neuroscience, I am passionate about developing new ways of publishing, and supporting students in difficult circumstances, such as in Iran. In moments of spare time, I cherish 
+Besides neuroscience, I am passionate about developing new ways of publishing, and supporting students in difficult circumstances, such as in Iran. In moments of spare time, I cherish spending time with my wife and our four kids as well as doing all kinds of sports.
 
 ## Publications
 A comprehensive list of my recent publications can be found on my [Google Scholar profile](https://scholar.google.com/citations?user=JghW0NoAAAAJ).
