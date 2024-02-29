@@ -475,7 +475,7 @@ article>h1:first-child {
 }
 
 .intro .right {
-    width: 28%
+    width: 35%
 }
 
 @media (max-width: 480px) {
@@ -494,6 +494,7 @@ article>h1:first-child {
 .intro .left {
     flex: 1;
     margin-right: 2rem
+	
 }
 
 .intro .left h2 {
@@ -521,7 +522,7 @@ article>h1:first-child {
 
 .contact {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap
 }
@@ -534,8 +535,8 @@ article>h1:first-child {
 }
 
 .contact img {
-    width: 2rem;
-    height: 2rem
+    width: 1.5rem;
+    height: 1.5rem
 }
 
 .contact span img {
