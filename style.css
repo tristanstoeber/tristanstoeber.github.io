@@ -809,7 +809,7 @@ article>h1:first-child {
 }
 
 .tiles li .image {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 42 / 28;
     margin: 0;
     background-color: #fff;
     background-size: cover;
