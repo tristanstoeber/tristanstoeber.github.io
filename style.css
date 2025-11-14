@@ -485,7 +485,7 @@ article>h1:first-child {
 }
 
 .intro .right img.face {
-    width: 100%;
+    width: 180px; /* Or another value like 50% */
     border-radius: .2rem;
     box-shadow: 0.05em 0.05em 0.2em rgba(0,0,0,0.3);
     margin-top: .6rem
@@ -848,6 +848,7 @@ pre,pre span {
     color: #888;
     background: #eee
 }
+
 
 
 
