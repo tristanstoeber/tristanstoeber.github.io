@@ -446,7 +446,17 @@ nav {
     display: flex;
     flex-wrap: wrap;
     column-gap: 1em;
-    row-gap: .4em
+    row-gap: .4em;
+    width: 100%
+}
+
+/* Spread the links across the full text width, so the last one's right
+   edge lands on the right text border. Only once they fit on one line -
+   below that they wrap and are left-aligned. */
+@media (min-width: 700px) {
+    nav {
+        justify-content: space-between
+    }
 }
 
 nav a {
@@ -458,7 +468,7 @@ nav a {
 
 @media (min-width: 1025px) {
     nav a {
-        margin:-.4em
+        margin:-.4em -.5em
     }
 }
 
@@ -508,10 +518,6 @@ article>h1:first-child {
 
 .intro .left h2 span {
     font-weight: 800
-}
-
-.intro .left p {
-    text-align: justify
 }
 
 .intro .left .contact {
