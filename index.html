@@ -31,16 +31,7 @@
     <main>
         <article class="wrapper">
             <!-- Intro section with short bio and contact info -->
-            <div class="intro">
-                <div class="left">
-                    <p>Hey, my name is Tristan and I am a Computational Neuroscientist.</p>
-                    <p>
-                        Currently, I am employed as a
-                        <a href="https://www.uni-goettingen.de/en/cidas+fellowship/694026.html">CIDAS Fellow</a>
-                        at CIDAS - Campus-Institut Data Sciene, Göttingen University, and as a research fellow (part-time) at the Department of Neurology,
-                        <a href="https://www.kgu.de/">University Hospital Frankfurt</a>, Germany.
-                    </p>
-                </div>
+            <div class="intro wrap">
                 <div class="right">
                     <img class="face" src="img/TristanStoeber_AYF_square.png" />
                     <p class="contact">
@@ -58,18 +49,27 @@
                         </a>
                     </p>
                 </div>
+                <div class="left">
+                    <p>Hey, my name is Tristan and I am a Computational Neuroscientist.</p>
+                    <p>
+                        Currently, I am employed as a
+                        <a href="https://www.uni-goettingen.de/en/cidas+fellowship/694026.html">CIDAS Fellow</a>
+                        at CIDAS - Campus-Institut Data Sciene, Göttingen University, and as a research fellow (part-time) at the Department of Neurology,
+                        <a href="https://www.kgu.de/">University Hospital Frankfurt</a>, Germany.
+                    </p>
+                    <p>
+                        My research agenda revolves around deciphering how the brain builds and uses its internal model
+                        of the world, also called cognitive map. This topic fascinates me for two reasons: First, it is
+                        an exciting, yet unresolved, neuroscientific question. Second, reengineering cognitive map formation
+                        in artificial neural networks could lead to intelligent systems that surpass current technology
+                        in reliability, speed, and efficiency in terms of data requirements and energy consumption. To this aim,
+                        my students and I build artificial neural networks to explain experimental data and to solve
+                        real world challenges. We focus primarily on the hippocampus because of its crucial role for
+                        cognitive map formation. In addition, I recently started working on neuromorphic hardware and
+                        I use my theoretical and physiological knowledge to support research on epilepsy.
+                    </p>
+                </div>
             </div>
-            <p>
-                My research agenda revolves around deciphering how the brain builds and uses its internal model
-                of the world, also called cognitive map. This topic fascinates me for two reasons: First, it is
-                an exciting, yet unresolved, neuroscientific question. Second, reengineering cognitive map formation
-                in artificial neural networks could lead to intelligent systems that surpass current technology
-                in reliability, speed, and efficiency in terms of data requirements and energy consumption. To this aim,
-                my students and I build artificial neural networks to explain experimental data and to solve
-                real world challenges. We focus primarily on the hippocampus because of its crucial role for
-                cognitive map formation. In addition, I recently started working on neuromorphic hardware and
-                I use my theoretical and physiological knowledge to support research on epilepsy.
-            </p>
 
             <!-- Biography section -->
             <h3 id="bio">Biography</h3>
@@ -305,7 +305,7 @@
             <h3 id="distinctions">Academic Distinctions</h3>
             <ul>
                 <li>2026: ERC Starting Grant, European Research Council, for WoM-BaM - World Models in Brains and Machines (2027-2032)</li>
-                <li>2026: BMFTR funding for ALDEN - AI-supported Lesion Detection in Epilepsy using the NAKO cohort, Co-PI (2027-2029)</li>
+                <li>2026: BMFTR funding for ALDEN - AI-supported Lesion Detection in Epilepsy using the NAKO cohort, Co-PI with Niels Focke (University Medical Center Göttingen) and Raviteja Kotikalapudi (University Medicine Essen) (2027-2029)</li>
                 <li>2025: CIDAS-Fellowship, Campus-Institut Data Science, University of Göttingen</li>
                 <li>2024 - present: International Member, The Young Academy of Norway</li>
                 <li>2024 - present: Academy Fellow, Johanna Quandt Young Academy</li>
@@ -424,11 +424,88 @@
             <div class="intro">
                 <div class="left">
                     <p>
-                        Are you passionate about <span>Neuroscience</span> and <span>Artificial Intelligence</span>,
-                        and do you possess strong quantitative skills? Are you seeking an engaging internship, or a bachelor's,
-                        master's, or Ph.D. thesis topic that can truly challenge you? If so, we would love to hear from you!
-                        For more information please
-                        <a href="mailto:tristan.stoeber@posteo.net" target="_blank">contact</a> us.
+                        Science is not for the faint-hearted. Wrestling secrets out of nature is a
+                        rollercoaster, and however hard I try to guide you, success is never guaranteed.
+                        To survive you need talent and knowledge, of course &ndash; but also an unshakeable
+                        curiosity, a good dose of stubbornness, and a slightly unreasonable optimism.
+                    </p>
+                    <p>
+                        If that sounds like a match, feel free to reach out. At the moment I have these
+                        openings:
+                    </p>
+                </div>
+            </div>
+
+            <ul class="collection">
+                <li>
+                    <div class="text">
+                        <h4>Ph.D. Student &ndash; Hippocampal representations in dynamic environments</h4>
+                        <p class="date">100% (TV-L E13) &middot; 3 years &middot; G&ouml;ttingen</p>
+                        <p>
+                            Analyse an unpublished, large-scale in-vivo miniscope dataset: CA1 pyramidal cells
+                            tracked across 11 tasks and 34 days. Characterise how cognitive maps emerge, drift
+                            and are reused, from single cells to the geometry of the population manifold.
+                            In close collaboration with Tom McHugh (RIKEN CBS, Japan).
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <h4>Ph.D. Student &ndash; Brain-inspired world models for navigating dynamic environments</h4>
+                        <p class="date">100% (TV-L E13) &middot; 3 years &middot; G&ouml;ttingen</p>
+                        <p>
+                            We distill inductive biases from normative hippocampus models and use these insights
+                            to build novel and powerful model-based deep RL agents.
+                            The goal: agents that plan over long horizons with interpretable internal representations.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <h4>Postdoctoral Researcher &ndash; Machine learning for epilepsy</h4>
+                        <p class="date">100% (TV-L E13) &middot; ~1 year with potential extension &middot; G&ouml;ttingen</p>
+                        <p>
+                            We try to predict epilepsy before it even starts. For this we use unique
+                            intracranial recordings from patients who suffered a bleed on the brain's
+                            surface &ndash; about one in three of whom go on to develop epilepsy. On these
+                            data we fine-tune EEG foundation models. We also build digital twin network models
+                            of individual patients, allowing us to simulate personalised prevention and
+                            treatment strategies. A collaboration with Michael
+                            Str&uuml;ber and Felix Rosenow (University Hospital Frankfurt) as well as Richard Gao
+                            (Goethe University Frankfurt).
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="text">
+                        <h4>Research Assistants (2 positions)</h4>
+                        <p class="date">Part-time &middot; students welcome</p>
+                        <p>
+                            Support the projects above with calcium imaging data processing, behavioural
+                            tracking, software engineering and simulation experiments &ndash; a good entry point
+                            for a B.Sc. or M.Sc. thesis in the lab.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="intro">
+                <div class="left">
+                    <p>
+                        <b>Prerequisites:</b> strong quantitative skills, fluency in Python, experience with
+                        machine learning, and genuine curiosity about both brains and machines.
+                    </p>
+                    <p>
+                        <b>What we offer:</b> an interdisciplinary group at the interface of neuroscience and AI,
+                        a strong national and international network, and a generous ERC travel and
+                        publication budget for conferences such as NeurIPS, Cosyne and FENS.
+                    </p>
+                    <p>
+                        <b>How to apply:</b> send your CV, a short motivation letter naming the position you are
+                        interested in, and contact details of two references to
+                        <a href="mailto:tristan.stoeber@posteo.net">tristan.stoeber@posteo.net</a>.
+                        Applications are reviewed as they arrive. Internships and thesis projects outside these
+                        openings are always welcome &ndash; just get in touch.
                     </p>
                 </div>
             </div>

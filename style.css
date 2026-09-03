@@ -511,6 +511,27 @@ article>h1:first-child {
 
 }
 
+/* Portrait floats to the right so the surrounding text wraps around and
+   continues underneath it, instead of sitting in a rigid second column. */
+.intro.wrap {
+    display: block
+}
+
+.intro.wrap::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.intro.wrap .right {
+    float: right;
+    margin-left: 1.2rem
+}
+
+.intro.wrap .left {
+    margin-right: 0
+}
+
 .intro .left h2 {
     font-size: 1.5rem;
     margin-top: 0
